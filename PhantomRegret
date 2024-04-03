@@ -1,0 +1,2 @@
+ # Compile LaTeX to PDF
+    subprocess.run([r"C:\Program Files\MiKTeX\miktex\bin\x64\pdflatex.exe", '-interaction', 'nonstopmode', filename] ,)
