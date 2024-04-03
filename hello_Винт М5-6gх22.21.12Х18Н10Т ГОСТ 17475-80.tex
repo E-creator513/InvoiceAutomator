@@ -1,0 +1,53 @@
+\documentclass[10pt,a6paper,landscape]{book}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage[cm]{fullpage}     
+\usepackage[top=10mm, bottom=10mm, left=0mm, right=10mm, showframe,
+            foot=5mm, marginparsep=0mm]{geometry}
+
+\geometry{bindingoffset=1cm}
+\usepackage{blindtext}
+\usepackage{enumitem}
+\usepackage{pdfpages}
+\usepackage[T2A]{fontenc}
+
+
+\pdfpagewidth=\paperwidth
+\pdfpageheight=\paperheight
+
+
+\makeatletter
+\newcommand\usemm[1]{%
+\strip@pt\dimexpr0.3514598\dimexpr #1\relax\relax mm%
+}
+\newcommand\usein[1]{%
+\strip@pt\dimexpr0.013837\dimexpr #1\relax\relax in%
+}
+\makeatother
+
+\setlength{\parindent}{0ex}
+\usepackage[english,russian]{babel}
+\begin{document}
+\includegraphics[scale=0.2]{logo.png}
+\begin{minipage}[c][20ex][t]{26em}
+    \centering{\textbf{ООО "Промышленная Фурнитура и Тара" }}
+    ИНН 7819030811,КПП 780501001\\
+    РФ,198207, г. Санкт-Петербург,Трамвайный проспект, 6
+    8(812) 983-70-83\hfill metgost.ru\hfill zakaz@metgost.ru
+    \par\noindent\rule{\textwidth}{0.5pt}\\
+\end{minipage}
+\par\noindent\rule{\textwidth}{0.5pt}
+
+\begin{itemize}
+
+    \item Наименование:  105!
+    \item Стандарт:  105!
+    \item Количество:  105!\ шт 
+    \item Цена:  105!\ руб
+    \item Счет Номер: 105! \ руб
+\end{itemize}
+\par\noindent\rule{\textwidth}{0.5pt}\\
+%\vspace{0.5cm}
+\centering{©2024 ООО "Промышленная Фурнитура и Тара" – завод по производству промышленной фурнитуры}
+\end{document}
